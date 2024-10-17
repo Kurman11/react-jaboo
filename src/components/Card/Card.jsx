@@ -9,13 +9,27 @@ const {Container} = CardStyled;
 
 function Card(props){
   return (
-    <Container>
-      <div class="first-li-div">
-          {props.image}
-          <div class="first-li-box"></div>
-      </div>
-        <div class="first-li-div1">{props.hi}</div>
-        <div class="first-li-div2">{props.good}</div>
+    <Container  className={props.isOn ? 'li' : ''}>
+          {props.isOn ? 
+            <div className="second-li">
+              <div className="second-li-div">
+                <div className="second-li-div3">
+                    {props.image}
+                    <div className="first-li-box"></div>
+                </div>
+                  <div className="first-li-div1">{props.text}</div>
+                  <div className="first-li-div2">{props.text1}</div>
+              </div>
+              <div className="second-li-box"></div>
+            </div> : 
+          <>
+            <div className="first-li-div">
+                {props.image}
+                <div className="first-li-box"></div>
+            </div>
+              <div className="first-li-div1">{props.text}</div>
+              <div className="first-li-div2">{props.text1}</div>
+          </>}
     </Container>
   )
 }
