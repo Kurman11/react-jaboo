@@ -1,0 +1,163 @@
+html, body{width: 100%; height: 100%; padding: 0; margin: 0;}
+
+body *{box-sizing: border-box;}
+
+ul{list-style: none; box-sizing: border-box; padding: 0; margin: 0; display: flex;
+}
+
+.container{width: calc(100% - 204px); height: 100%; margin: auto; }
+
+
+/* header */
+header{position: fixed; width: 100%; z-index: 1001;} 
+.herder-container{height: 49px; display: flex; justify-content: space-between; margin-top: 30px;}
+
+section{width: 100%;}
+section:nth-of-type(1){height: 884px; background-color: #220970; 
+  background-image: url(./image/NFT.png); background-repeat: no-repeat; background-position-y: 70px;}
+section:nth-of-type(2){height: 1026px; background-image: url(./image/bg2.jfif); background-repeat: no-repeat; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+section:nth-of-type(3){height: 750px; background-color: #02021B;}
+section:nth-of-type(4){height: 750px; background-image: url(./image/bg2.jfif); background-repeat: no-repeat; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+footer{width: 100%; height: 470px; background: #02021B; position: relative;}
+
+.header-logo{height: 49px;}
+.logo-maindiv{display: flex;}
+.logo-div{width: 101px; color: white; font-family: Poppins; font-size: 32px; font-weight: 500; text-align: left; line-height: 40px;}
+
+.header-ul{width: 328.53px; height: 31px; justify-content: space-around; color: white; line-height: 49px;}
+
+.header-ul li{font-family: Poppins; font-size: 16px; font-weight: 500; text-align: center; position: relative;}
+.header-ul li::after{
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 2px;
+  border: 1px solid white;
+  top: 140%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+
+.header-ul li:nth-of-type(1){width: 48px;
+}
+.header-ul li:nth-of-type(2){width: 68px;}
+.header-ul li:nth-of-type(3){width: 71px;}
+.header-ul li:nth-of-type(4){width: 49px;}
+
+.button1{
+  width: 112px; 
+  height: 42px; 
+  font-family: Poppins; 
+  font-size: 15px; 
+  font-weight: 500; 
+  line-height: 15px; 
+  text-align: center; 
+  border: 2px solid ; 
+  border-image-source: linear-gradient(272.52deg, #FFA6FA 47.49%, #3C79D5 98.81%); 
+  background-color: transparent; 
+  border-image-slice: 1; 
+  color: white; 
+  border-radius: 100px;}
+
+/* 첫번째 section */
+.first-div{display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end; width: 90%; height: 60%;}
+.first-div-font1{font-family: Poppins; font-size: 50px; font-weight: 700; line-height: 75px; text-align: left; width: 517px; height: 166px; color: white;}
+.first-div-font2{font-family: Poppins; font-size: 20px; font-weight: 400; line-height: 30px; letter-spacing: 0.30000001192092896px; text-align: left; color: white; width: 517px; }
+
+.first-second-div{display: flex; justify-content: flex-end; align-items: flex-end; width: 90%; margin-top: 50px;}
+.first-second-img{width: 67px; height: 50px; background-image: url(./image/삼각.png); background-repeat: no-repeat; background-size: 100%;}
+.first-second-font{width: 180px; height: 20px; color: white; font-family: Poppins; font-size: 20px; font-weight: 700; line-height: 20px; letter-spacing: 0.30000001192092896px; text-align: left;}
+.first-second-font2{width: 277px; height: 31px; font-family: Poppins; font-size: 14px; font-weight: 400; line-height: 21px; text-align: left; color: white;}
+
+
+/* 두번째 section */
+.second-first-div{width: 1170px; height: 819px; display: flex; flex-direction: column;}
+.second-main-div{display: flex; justify-content: space-between; width: 1170px; height: 170px;}
+.second-font{font-family: Poppins; font-size: 16px; font-weight: 600; line-height: 24px; text-align: left; width: 122px; height: 24px; color: white;}
+.second-font1{font-family: Poppins; font-size: 36px; font-weight: 700; line-height: 36px; text-align: left; width: 310px; height: 36px; color: white;}
+.second-font2{font-family: Poppins; font-size: 20px; font-weight: 400; line-height: 30px; letter-spacing: 0.30000001192092896px; text-align: left; width: 618px; height: 60px; color: white;}
+.second-second-div{width: 618px; height: 170px; display: flex; flex-direction: column; justify-content: space-around;}
+.second-button{display: flex; width: 100px; justify-content: space-between; align-items: flex-end;}
+.second-btn{background-color: #0C0263; width: 40px; height: 40px; color: white; 
+text-align: center; line-height: 35px; font-weight: bolder; border: 2px solid;
+border-image-source: linear-gradient(272.52deg, #FFA6FA 47.49%, #3C79D5 98.81%);
+border-image-slice: 1;}
+.second-figure{display: flex; justify-content: space-around; width: 1170px;}
+.figure-div{display: flex; flex-direction: column; justify-content:space-between;
+width: 121px; height: 63px; margin-top: 20px; margin-left: 20px;}
+.figure-div1{font-family: Poppins; font-size: 14px; font-weight: 400; line-height: 14px; text-align: left; width: 97px; height: 14px; color: white;}
+.figure-div2{display: flex; width: 121px; height: 32px; color: white;}
+.figure-img{width: 20px; height: 32px;}
+.figure-div3{width: 91px; height: 26px; color: white; font-family: Poppins; font-size: 24px; font-weight: 600; line-height: 26px; text-align: left; margin-left: 15px;}
+.flex{display: flex; justify-content: space-between;}
+.bgc{width: 370px; height: 196px; background-color: #02021B;}
+.div-img{border: 2px solid;  border-image-source: linear-gradient(272.52deg, #FFA6FA 47.49%, #3C79D5 98.81%); width: 34px; height: 34px; border-image-slice: 1; position: absolute; z-index: 1001; left: -99px; background-image: url(./image/people1.png); background-size: 100%; background-color: black;}
+.div-img1{border: 2px solid;  border-image-source: linear-gradient(272.52deg, #FFA6FA 47.49%, #3C79D5 98.81%); width: 34px; height: 34px; border-image-slice: 1; position: absolute; z-index: 1000; left: -77px; background-image: url(./image/people2.png); background-size: 100%; background-color: black;}
+.div-img2{border: 2px solid;  border-image-source: linear-gradient(272.52deg, #FFA6FA 47.49%, #3C79D5 98.81%); width: 34px; height: 34px; border-image-slice: 1; position: absolute; left: -55px; background-image: url(./image/people1.png); background-size: 100%; background-color: black;}
+.position{position: relative; margin-top: 20px; backdrop-filter: blur(192px);
+  box-shadow: 0px 4px 97px 0px #FF56F682;}
+.second-box{width: 177px; height: 57px; color: white; font-family: Poppins; font-size: 18px; font-weight: 500; line-height: 57px; text-align: center; margin: auto; border: 2px solid; border-image-source: linear-gradient(272.52deg, #FFA6FA 47.49%, #3C79D5 98.81%); border-image-slice: 1; backdrop-filter: blur(192px);
+box-shadow: 0px 4px 97px 0px #FF56F682; background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+margin-top: 35px; }
+figure{margin: 40px 0 0 0px;}
+
+/* 세번째 section */
+.third-main{width: 1170px; height: 646px; display: flex; margin: auto;}
+.third-div{display: flex; flex-direction: column; justify-content: space-around; }
+.third-font{font-family: Poppins; font-size: 36px; font-weight: 700; line-height: 36px; text-align: left; width: 462px; height: 36px; color: white; }
+.third-div1{width: 1170px; height: 227px; display: flex;}
+.third-div1-div{width: 470px; height: 227px; display: flex; justify-content: space-between; backdrop-filter: blur(42px); background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0.55%, rgba(255, 255, 255, 0.04) 100%); border-radius: 15px;}
+.third-div1-font{font-family: Poppins; font-size: 34px; font-weight: 400; line-height: 51px; text-align: justified; color: white; }
+.third-div1-font1{font-family: Poppins; font-size: 24px; font-weight: 400; line-height: 36px; text-align: justified; color: white; }
+.third-div1-img{width: 212px; height: 156px; margin:10px 15px;}
+.third-div1-main{width: 173px; height: 120px; display: flex; flex-direction: column; justify-content: space-around; margin-top: 15px; margin:10px 15px;}
+.third-div1-font2{font-family: Poppins; font-size: 26px; font-weight: 400; line-height: 39px; text-align: left; color: white; width: 670px; height: 195px;
+margin-left: 25px;}
+.third-div1-img1{width: 110px; height: 22px; margin-left: 25px;}
+
+.third-people{width: 968px; height: 227px; display: flex; justify-content: space-around; margin: 0 auto;}
+.third-people1{width: 100px; height: 133px; margin-top: 94px;}
+.third-people2{width: 170px; height: 227px;}
+
+/* 네번째 section */
+.position{position: relative;}
+.fourth-font{font-family: Poppins; font-size: 36px; font-weight: 700; line-height: 36px; text-align: left; width: 488px; height: 36px; color: white; }
+.fourth-div{display: flex; justify-content: space-between; width: 1170px; margin-top: 70px;}
+.fourth-button{display: flex; width: 100px; justify-content: space-between;}
+.fourth-bgc{width: 280px; height: 175px; background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0.55%, rgba(255, 255, 255, 0.04) 100%); position:absolute; 
+top: 200px; border-radius: 10px; left: 50px;}
+.fourth-box{width: 177px; height: 57px; color: white; font-family: Poppins; font-size: 18px; font-weight: 500; line-height: 57px; text-align: center; border: 2px solid; border-image-source: linear-gradient(272.52deg, #FFA6FA 47.49%, #3C79D5 98.81%); border-image-slice: 1; backdrop-filter: blur(192px);
+  box-shadow: 0px 4px 97px 0px #FF56F682; background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%); position: absolute; top: 390px; left: 100px;}
+.fourth-div1{width: 135px; height: 144px; margin-left: 10px; display: flex; flex-direction: column; justify-content: space-around; margin-top: 20px;}
+.fourth-font1{font-family: Poppins; font-size: 16px;  font-weight: 600;line-height: 16px; text-align: left; color: white;}
+.fourth-font2{font-family: Poppins; font-size: 10px; font-weight: 500; line-height: 10px; text-align: left; color: #BCBCBC } 
+.figure-div4{font-family: Poppins;font-size: 24px; font-weight: 600; line-height: 26px; text-align: left; }
+.figure-div5{display: flex; flex-direction: column; justify-content:space-between;
+  width: 121px; height: 63px;}
+.fourth-img{ background-image: url(./image/image4.png);width: 378px; height: 308px; }
+.fourth-img1{background-image: url(./image/image5.png);width: 378px; height: 308px;}
+.fourth-img2{background-image: url(./image/image6.png);width: 378px; height: 308px;}
+
+/* footer */
+.footer-img{position: absolute; height: 470px; right: 0;}
+.footer-div{width: 970px; height: 450px; display: flex; flex-direction: column; padding: 50px 100px; justify-content: space-around;}
+.footer-div1{width: 405px; height: 36px; color: white; font-family: Poppins; font-size: 36px; font-weight: 700; line-height: 36px; text-align: left;}
+.footer-div2{width: 770px; height: 60px; display: flex;}
+.footer-btn1{width: 770px; height: 60px; background-color: #0C0263; font-family: Poppins; font-size: 16px; font-weight: 400; line-height: 16px; text-align: left; padding-left: 15px;}
+.footer-btn1::placeholder { color: white;}
+.footer-btn2{width: 197px; height: 57px; color: white; font-family: Poppins; font-size: 18px; font-weight: 500; line-height: 57px; text-align: center; border: 2px solid; border-image-source: linear-gradient(272.52deg, #FFA6FA 47.49%, #3C79D5 98.81%); border-image-slice: 1; backdrop-filter: blur(192px);
+  box-shadow: 0px 4px 97px 0px #FF56F682; background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);}
+.footer-font{font-family: Poppins; font-size: 16px; font-weight: 400; line-height: 24px; text-align: left; color: white; }
+.footer-font1{font-family: Poppins; font-size: 18px; font-weight: 600; line-height: 18px; text-align: left; color: white; }
+.footer-icon-div{display: flex;}
+.footer-icon{width: 36px; height: 37px; line-height: 37px; background-image: url(./image/icon.png); background-size: 100%;}
+.footer-icon1{width: 36px; height: 37px; line-height: 37px; background-image: url(./image/icon1.png); background-size: 100%;}
+.footer-icon2{width: 36px; height: 37px; line-height: 37px; background-image: url(./image/icon2.png); background-size: 100%;}
+.footer-icon3{width: 36px; height: 37px; line-height: 37px; background-image: url(./image/icon3.png); background-size: 100%;}
+.footer-div3{display: flex; justify-content: space-between;}
+.footer-div4{width: 415px; height: 150px; display: flex; flex-direction: column; justify-content: space-around;}
+.footer-ul-div{width: 160px; display: flex; justify-content: space-between;}
+.footer-ul{display: flex; flex-direction: column; width: 70px; height: 150px; justify-content: space-around;}
+.footer-ul li{ color: white; font-family: Poppins; font-size: 16px; font-weight: 400; line-height: 24px; text-align: left;}
+
